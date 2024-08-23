@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kita &quot;Traumhaus&quot; Rüdnitz</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-zufahrt">
+        <li class="text">Zufahrt</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-parkplatz">
+        <li class="text">Parkplatz</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-eingang_aussen">
+        <li class="text">Eingang_Aussen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-parkplatz_muellhaus">
+        <li class="text">Parkplatz_Muellhaus</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-kinderwagenraum_eingang">
+        <li class="text">Kinderwagenraum_Eingang</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-kinderwagenraum">
+        <li class="text">Kinderwagenraum</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-waeldchen">
+        <li class="text">Waeldchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-garten_zuwegung">
+        <li class="text">Garten_Zuwegung</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-garten_tor">
+        <li class="text">Garten_Tor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-garten_01">
+        <li class="text">Garten_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-garten_02">
+        <li class="text">Garten_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-garten_03">
+        <li class="text">Garten_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-garten_04">
+        <li class="text">Garten_04</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-garten_06">
+        <li class="text">Garten_06</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-garten_07">
+        <li class="text">Garten_07</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-garten_pergola_01">
+        <li class="text">Garten_Pergola_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-garten_pergola_02">
+        <li class="text">Garten_Pergola_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-garten_pergola_03">
+        <li class="text">Garten_Pergola_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-garten_pergola_04">
+        <li class="text">Garten_Pergola_04</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-garten_pergola_05">
+        <li class="text">Garten_Pergola_05</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-garten_pergola_06">
+        <li class="text">Garten_Pergola_06</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-garten_pergola_07">
+        <li class="text">Garten_Pergola_07</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-garten_pergola_08">
+        <li class="text">Garten_Pergola_08</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-garten_pergola_09">
+        <li class="text">Garten_Pergola_09</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-garten_pergola_podest">
+        <li class="text">Garten_Pergola_Podest</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-garten_sitzgruppe">
+        <li class="text">Garten_Sitzgruppe</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-eingang_innen_01">
+        <li class="text">Eingang_Innen_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-eingang_innen_02">
+        <li class="text">Eingang_Innen_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-essensbereich">
+        <li class="text">Essensbereich</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-gruppenraum_blau_01">
+        <li class="text">Gruppenraum_Blau_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-gruppenraum_blau_02">
+        <li class="text">Gruppenraum_Blau_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-gruppenraum_blau_03">
+        <li class="text">Gruppenraum_Blau_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-gruppenraum_blau_schlafen_01">
+        <li class="text">Gruppenraum_Blau_Schlafen_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-gruppenraum_blau_schlafen_02">
+        <li class="text">Gruppenraum_Blau_Schlafen_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-gruppenraum_blau_wc">
+        <li class="text">Gruppenraum_Blau_WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-gruppenraum_gelb_01">
+        <li class="text">Gruppenraum_Gelb_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-gruppenraum_gelb_02">
+        <li class="text">Gruppenraum_Gelb_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-gruppenraum_gelb_03">
+        <li class="text">Gruppenraum_Gelb_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-gruppenraum_gelb_schlafen_01">
+        <li class="text">Gruppenraum_Gelb_Schlafen_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-gruppenraum_gelb_schlafen_02">
+        <li class="text">Gruppenraum_Gelb_Schlafen_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-gruppenraum_gelb_wc">
+        <li class="text">Gruppenraum_Gelb_WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-gruppenraum_gruen_01">
+        <li class="text">Gruppenraum_Gruen_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-gruppenraum_gruen_02">
+        <li class="text">Gruppenraum_Gruen_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-gruppenraum_gruen_03">
+        <li class="text">Gruppenraum_Gruen_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-gruppenraum_gruen_schlafen_01">
+        <li class="text">Gruppenraum_Gruen_Schlafen_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-gruppenraum_gruen_schlafen_02">
+        <li class="text">Gruppenraum_Gruen_Schlafen_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-gruppenraum_gruen_wc">
+        <li class="text">Gruppenraum_Gruen_WC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-heizung">
+        <li class="text">Heizung</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-kinder_flur_01">
+        <li class="text">Kinder_Flur_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-kinder_flur_02">
+        <li class="text">Kinder_Flur_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-kinder_flur_03">
+        <li class="text">Kinder_Flur_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-kinder_flur_04">
+        <li class="text">Kinder_Flur_04</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-kinder_flur_05">
+        <li class="text">Kinder_Flur_05</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-kinder_flur_06">
+        <li class="text">Kinder_Flur_06</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-kinder_flur_07">
+        <li class="text">Kinder_Flur_07</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-kinder_flur_08">
+        <li class="text">Kinder_Flur_08</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-kinder_funktionsraum_01">
+        <li class="text">Kinder_Funktionsraum_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-kinder_funktionsraum_02">
+        <li class="text">Kinder_Funktionsraum_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-kinder_technikraum_01">
+        <li class="text">Kinder_Technikraum_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-kinder_technikraum_02">
+        <li class="text">Kinder_Technikraum_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-kueche">
+        <li class="text">Kueche</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-kueche_vorrat">
+        <li class="text">Kueche_Vorrat</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-personal_besprechung">
+        <li class="text">Personal_Besprechung</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-personal_buero">
+        <li class="text">Personal_Buero</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-personal_flur_01">
+        <li class="text">Personal_Flur_01</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-personal_flur_02">
+        <li class="text">Personal_Flur_02</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-personal_flur_03">
+        <li class="text">Personal_Flur_03</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-personal_flur_04">
+        <li class="text">Personal_Flur_04</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-personal_flur_05">
+        <li class="text">Personal_Flur_05</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-personal_flur_06">
+        <li class="text">Personal_Flur_06</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-personal_flur_07">
+        <li class="text">Personal_Flur_07</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-personal_flur_08">
+        <li class="text">Personal_Flur_08</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-personal_umkleide">
+        <li class="text">Personal_Umkleide</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="73-personal_umkleide_wc_1">
+        <li class="text">Personal_Umkleide_WC_1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="74-personal_umkleide_wc_2">
+        <li class="text">Personal_Umkleide_WC_2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="75-reinigung">
+        <li class="text">Reinigung</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="76-waschraum_lager">
+        <li class="text">Waschraum_Lager</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="77-wc">
+        <li class="text">WC</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+<a href="https://kita-traumhaus.de/" target="_blank"><img class="Logo" src="img/logo-kita-traumhaus-300x124.png"></a>
+
+</body>
+</html>
