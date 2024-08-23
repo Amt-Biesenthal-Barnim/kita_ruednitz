@@ -6,4 +6,3 @@ https://github.com/Amt-Biesenthal-Barnim/kita_ruednitz/tree/main/kita/tiles
 
 https://github.com/Amt-Biesenthal-Barnim/kita_ruednitz/upload/main/kita/tiles
 
-test
