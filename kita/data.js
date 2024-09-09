@@ -1590,6 +1590,12 @@ var APP_DATA = {
           "rotation": 0,
           "target": "28-essensbereich"
         },
+	{
+          "yaw": 2.9906982695533255,
+          "pitch": 0.2272072408996344,
+          "rotation": 0,
+          "target": "64-personal_flur_01"
+        },
         {
           "yaw": 1.4100055788241992,
           "pitch": 0.27974664421873463,
