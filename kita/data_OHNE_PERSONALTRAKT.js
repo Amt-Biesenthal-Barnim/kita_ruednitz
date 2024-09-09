@@ -3134,8 +3134,90 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
+      "id": "60-kueche",
+      "name": "Kueche",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1440,
+      "initialViewParameters": {
+        "yaw": 0.7500564898554671,
+        "pitch": 0.21655067776492132,
+        "fov": 1.5465028311360536
+      },
+      "linkHotspots": [       
+        {
+          "yaw": -2.614069808767983,
+          "pitch": 0.5805387327232072,
+          "rotation": 0,
+          "target": "64-personal_flur_01"
+        }
+      ],
+      "infoHotspots": []
+    },
+	{
+      "id": "64-personal_flur_01",
+      "name": "Personal_Flur_01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1440,
+      "initialViewParameters": {
+        "yaw": -2.4672092469443783,
+        "pitch": 0.24691282034959627,
+        "fov": 1.5465028311360536
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.07216619203974695,
+          "pitch": 0.20571649066277864,
+          "rotation": 0,
+          "target": "27-eingang_innen_02"
+        },
+        {
+          "yaw": -1.704662683120823,
+          "pitch": 0.5803762940734316,
+          "rotation": 0,
+          "target": "60-kueche"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
       "id": "77-wc",
-      "name": "WC",
+      "name": "Gäste WC",
       "levels": [
         {
           "tileSize": 256,
