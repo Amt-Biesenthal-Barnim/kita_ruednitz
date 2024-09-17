@@ -242,14 +242,7 @@ var APP_DATA = {
           "target": "0-zufahrt"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 0.21143141041766,
-          "pitch": -0.1202423790055871,
-          "title": "Kinderwagenraum",
-          "text": "In diesem Bereich können die Kinderwagen abgestellt werden.&nbsp;"
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "5-kinderwagenraum",
@@ -1603,20 +1596,7 @@ var APP_DATA = {
           "target": "48-kinder_flur_01"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 3.083133019790159,
-          "pitch": 0.01841938594141368,
-          "title": "Personal",
-          "text": "Hier befindet sich der Bereich der dem Personal vorbehalten ist. Kinder sind in diesem Bereich eher selten."
-        },
-        {
-          "yaw": 1.8385277859103732,
-          "pitch": -0.21845879033536342,
-          "title": "Kinder",
-          "text": "Ab hier beginnt der Bereich der Gruppenräume. Kinder können sich hier bewegen und sich frei Entfalten.&nbsp;"
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "28-essensbereich",
@@ -1654,14 +1634,7 @@ var APP_DATA = {
           "target": "27-eingang_innen_02"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -2.243487712455922,
-          "pitch": -0.09350088423511238,
-          "title": "Essensausgabe",
-          "text": "Hier findet die Ausgabe zur Mittagszeit statt. In der Küche wird nicht selbst gekocht."
-        }
-      ]
+      "infoHotspots": []
     },
     {
       "id": "29-gruppenraum_blau_01",
